@@ -11,6 +11,14 @@
                     ]
                 },
                 {
+                    "name": "USA", 
+                    "children": [
+                        {"name": "change.org", "size": 14611000},
+                        {"name": "swagbucks.com", "size": 22616000}  
+                        
+                    ]
+                },
+                {
                     "name": "Arabia",
                     "children": [
                         {"name": "discuss.com.hk", "size": 6200}
@@ -18,6 +26,25 @@
                 }
             ]
         },
+         {
+            "name": "Misc", 
+            "children": [
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "ow.ly", "size": 6164000},
+                        {"name": "superpages.com", "size": 5271300}
+                    ]
+                },
+                {
+                    "name": "Turkey",
+                    "children": [
+                        {"name": "sabah.com.tr", "size": 11260000}
+                    ]
+                }
+
+            ]
+        },    
         {
             "name": "Blogs",
             "children": [
@@ -68,9 +95,14 @@
             ]
         },
         {
-            "name": "Companies USA",
+            "name": "Companies",
             "children": [
-                {"name": "microsoft.com", "size": 207956000}
+                {
+                "name": "USA",
+                "children": [
+                    {"name": "microsoft.com", "size": 207956000}
+                    ]
+                }
             ]
         },
                {
@@ -84,6 +116,57 @@
                 }
             ]
         },
+
+               {
+            "name": "Proxy", 
+            "children": [
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "hidemyass.com", "size": 20010000},
+                        {"name": "hotspotshield.com", "size": 69240000}
+                    ]
+                },
+                 {
+                    "name": "India",
+                    "children": [
+                        {"name": "anonymouse.org", "size": 36270000}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shopping", 
+            "children": [
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "cafepress.com", "size": 6607500},
+                        {"name": "evite.com", "size": 5536300},
+                        {"name": "hsn.com", "size": 5297200}
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "children": [
+                        {"name": "subito.it", "size": 15096000}
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "children": [
+                        {"name": "bomnegocio.com", "size": 9178700}
+                    ]
+                },
+                {
+                    "name": "Taiwan",
+                    "children": [
+                        {"name": ",books.com.tw", "size": 5353200}
+                    ]
+                }
+
+            ]
+        },    
         {
             "name": "File Sharing", 
             "children": [
@@ -95,6 +178,7 @@
                         {"name": "ustream.tv", "size": 14186000},
                         {"name": "4chan.org", "size": 12406000},
                         {"name": "6park.com", "size": 12345000},
+                        {"name": "pastebin.com", "size": 12284000},
                         {"name": "stagram.com", "size": 11463000}
                     ]
                 },
@@ -216,6 +300,31 @@
             ]
         },
         {
+            "name": "Learning", 
+            "children": [
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "brainyquote.com", "size": 15049000},
+                        {"name": "codecademy.com", "size": 6040200},
+                        {"name": "cornell.edu", "size": 5599800}
+                    ]
+                },
+                {
+                    "name": "Taiwan",
+                    "children": [
+                        {"name": "eyny.com", "size": 25437000}
+                    ]
+                },
+                {
+                    "name": "India",
+                    "children": [
+                        {"name": "askmefast.com", "size": 5064600}
+                    ]
+                }
+            ]
+        },
+        {
             "name": "News",
             "children": [
                 {
@@ -300,6 +409,82 @@
                     "name": "France",
                     "children": [
                         {"name": "lemonde.fr", "size": 21113000}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Housing", 
+            "children": [
+                {
+                    "name": "Japan",
+                    "children": [
+                        {"name": "suumo.jp", "size": 6119200}
+                    ]
+                },
+                {
+                    "name": "Spain",
+                    "children": [
+                        {"name": "fotocasa.es", "size": 4535000}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ISP and Web Hosting", 
+            "children": [
+                {
+                    "name": "France",
+                    "children": [
+                        {"name": "free.fr", "size": 32862000},
+                        {"name": "jimdo.com", "size": 26086000},
+                        {"name": "ovh.net", "size": 15128000}
+                    ]
+                },
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "bluehost.com", "size": 33642000},
+                        {"name": "4cdn.org", "size": 10619000},
+                        {"name": "gogvo.com", "size": 10634000}
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "children": [
+                        {"name": "oi.com.br", "size": 5349900}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TV and Video", 
+            "children": [
+                {
+                    "name": "Italy",
+                    "children": [
+                        {"name": "gpotato.eu", "size": 4315600}
+                    ]
+                },
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "tv.com", "size": 7461100},
+                        {"name": "redbox.com", "size": 7771800}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Images", 
+            "children": [
+                {
+                    "name": "USA",
+                    "children": [
+                        {"name": "istockphoto.com", "size": 27383000},
+                        {"name": "123rf.com", "size": 22392000},
+                        {"name": "imagevenue.com", "size": 9848400},
+                        {"name": "cooltext.com", "size": 5204600}
                     ]
                 }
             ]
