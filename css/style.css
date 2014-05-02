@@ -1,0 +1,27 @@
+html {
+  background: url(../landing-img.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 800px;
+}
+
+#wrapper {
+    min-width: 800px;
+    min-height: 600px;
+}
+
+#sliding-box {
+
+}
+
+#title p {
+    margin-top: 5%;
+    margin-left: 50%;
+    font-size: 60px;
+    color: #FFF;
+    position: fixed;
+    font-family: 'Oswald', sans-serif;
+    line-height: 70px;
+}
