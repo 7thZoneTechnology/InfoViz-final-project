@@ -1,5 +1,5 @@
 {
-    "name": "Categories",
+    "name": "Blocked Websites by Category",
     "children": [
         {
             "name": "Activism",
@@ -89,6 +89,7 @@
             "children": [
                 {
                 "name": "USA",
+                "category": "Company",
                 "children": [
                     {"name": "microsoft.com", "size": 167956000}
                     ]
@@ -101,6 +102,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Proxy",
                     "children": [
                         {"name": "hidemyass.com", "size": 19010000},
                         {"name": "hotspotshield.com", "size": 69240000}
@@ -108,6 +110,7 @@
                 },
                  {
                     "name": "India",
+                    "category": "Proxy",
                     "children": [
                         {"name": "anonymouse.org", "size": 36270000}
                     ]
@@ -119,6 +122,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Shopping",
                     "children": [
                         {"name": "cafepress.com", "size": 6607500},
                         {"name": "evite.com", "size": 5536300},
@@ -127,18 +131,21 @@
                 },
                 {
                     "name": "Italy",
+                    "category": "Shopping",
                     "children": [
                         {"name": "subito.it", "size": 15096000}
                     ]
                 },
                 {
                     "name": "Brazil",
+                    "category": "Shopping",
                     "children": [
                         {"name": "bomnegocio.com", "size": 10178700}
                     ]
                 },
                 {
                     "name": "Taiwan",
+                    "category": "Shopping",
                     "children": [
                         {"name": "books.com.tw", "size": 6353200}
                     ]
@@ -151,6 +158,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "dropbox.com", "size": 83378000},
                         {"name": "likes.com", "size": 19982000},
@@ -163,12 +171,14 @@
                 },
                 {
                     "name": "Iceland",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "archive.is", "size": 7016700}
                     ]
                 },
                 {
                     "name": "Japan",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "fc2.com", "size": 137634000},
                         {"name": "twitpic.com", "size": 9500700},
@@ -178,6 +188,7 @@
                 },
                 {
                     "name": "India",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "slideshare.net", "size": 79182000},
                         {"name": "mp3truck.net", "size": 7464500},
@@ -186,6 +197,7 @@
                 },
                 {
                     "name": "Taiwan",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "ck101.com", "size": 26772000},
                         {"name": "myfreshnet.com", "size": 6186700}
@@ -193,6 +205,7 @@
                 },
                 {
                     "name": "Germany",
+                    "category": "File Sharing",
                     "children": [
                         {"name": "bitshare.com", "size": 13126000}
                     ]
@@ -204,6 +217,7 @@
             "children": [
                 {
                     "name": "India",
+                    "category": "Social Networking",
                     "children": [
                         {"name": "like4like.org", "size": 4566600},
                         {"name": "bestsocialfeed.com", "size": 4511800}
@@ -211,6 +225,7 @@
                 },
                 {
                     "name": "Taiwan",
+                    "category": "Social Networking",
                     "children": [
                         {"name": "pixnet.net", "size": 80923000},
                         {"name": "gamebase.com.tw", "size": 58440000}
@@ -218,6 +233,7 @@
                 },
                 {
                     "name": "USA",
+                    "category": "Social Networking",
                     "children": [
                         {"name": "facebook.com", "size": 2668019000},
                         {"name": "t.co", "size": 118374000},
@@ -229,12 +245,14 @@
                 },
                 {
                     "name": "UK",
+                    "category": "Social Networking",
                     "children": [
                         {"name": "wayn.com", "size": 4653400}
                     ]
                 },
                 {
                     "name": "Germany",
+                    "category": "Social Networking",
                     "children": [
                         {"name": "xing.com", "size": 31110000}
                     ]
@@ -246,6 +264,7 @@
             "children": [
                 {
                     "name": "UK",
+                    "caterory": "Gambling",
                     "children": [
                         {"name": "betfair.com", "size": 8313700},
                         {"name": "888.com", "size": 73200000}
@@ -253,6 +272,7 @@
                 },
                 {
                     "name": "Spain",
+                    "caterory": "Gambling",
                     "children": [
                         {"name": "bet365.com", "size": 55626000}
                     ]
@@ -264,6 +284,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Search Engines",
                     "children": [
                         {"name": "google.com", "size": 4509295000},
                         {"name": "instantcheckmate.com", "size": 5838000},
@@ -272,6 +293,7 @@
                 },
                 {
                     "name": "India",
+                    "category": "Search Engines",
                     "children": [
                         {"name": "goo.gl", "size": 166503000}
                     ]
@@ -283,6 +305,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Learning",
                     "children": [
                         {"name": "brainyquote.com", "size": 15049000},
                         {"name": "codecademy.com", "size": 6040200},
@@ -291,12 +314,14 @@
                 },
                 {
                     "name": "Taiwan",
+                    "category": "Learning",
                     "children": [
                         {"name": "eyny.com", "size": 25437000}
                     ]
                 },
                 {
                     "name": "India",
+                    "category": "Learning",
                     "children": [
                         {"name": "askmefast.com", "size": 5064600}
                     ]
@@ -308,6 +333,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "News",
                     "children": [
                         {"name": "nytimes.com", "size": 80234000},
                         {"name": "theguardian.com", "size": 61286000},
@@ -328,42 +354,49 @@
                 },
                 {
                     "name": "Spain",
+                    "category": "News",
                     "children": [
                         {"name": "elpais.com", "size": 30450000}
                     ]
                 },
                 {
                     "name": "Canada",
+                    "category": "News",
                     "children": [
                         {"name": "cbc.ca", "size": 19559000}
                     ]
                 },
                 {
                     "name": "Venezuela",
+                    "category": "News",
                     "children": [
                         {"name": "eluniversal.com", "size": 7908700}
                     ]
                 },
                 {
                     "name": "Norway",
+                    "category": "News",
                     "children": [
                         {"name": "nrk.no", "size": 5973900}
                     ]
                 },
                 {
                     "name": "Azerbaijan",
+                    "category": "News",
                     "children": [
                         {"name": "musavat.com", "size": 4544300}
                     ]
                 },
                 {
                     "name": "Mexico",
+                    "category": "News",
                     "children": [
                         {"name": "esmas.com", "size": 4600000}
                     ]
                 },
                  {
                     "name": "Germany",
+                    "category": "News",
                     "children": [
                         {"name": "dw.de", "size": 10118000},
                         {"name": "sueddeutsche.de", "size": 13267000}
@@ -371,6 +404,7 @@
                 },
                 {
                     "name": "Taiwan",
+                    "category": "News",
                     "children": [
                         {"name": "udn.com", "size": 26345000},
                         {"name": "pchome.com.tw", "size": 13138000},
@@ -379,6 +413,7 @@
                 },
                 {
                     "name": "Egypt",
+                    "category": "News",
                     "children": [
                         {"name": "thqafawe3lom.com", "size": 6998800},
                         {"name": "yallakora.com", "size": 8207200}
@@ -386,6 +421,7 @@
                 },
                 {
                     "name": "France",
+                    "category": "News",
                     "children": [
                         {"name": "lemonde.fr", "size": 21113000}
                     ]
@@ -397,6 +433,7 @@
             "children": [
                 {
                     "name": "France",
+                    "category": "ISP and Web Hosting",
                     "children": [
                         {"name": "free.fr", "size": 32862000},
                         {"name": "jimdo.com", "size": 26086000},
@@ -405,6 +442,7 @@
                 },
                 {
                     "name": "USA",
+                    "category": "ISP and Web Hosting",
                     "children": [
                         {"name": "bluehost.com", "size": 33642000},
                         {"name": "4cdn.org", "size": 10619000},
@@ -413,6 +451,7 @@
                 },
                 {
                     "name": "Brazil",
+                    "category": "ISP and Web Hosting",
                     "children": [
                         {"name": "oi.com.br", "size": 5349900}
                     ]
@@ -424,12 +463,14 @@
             "children": [
                 {
                     "name": "Italy",
+                    "category": "TV & Video",
                     "children": [
                         {"name": "gpotato.eu", "size": 6315600}
                     ]
                 },
                 {
                     "name": "USA",
+                    "category": "TV & Video",
                     "children": [
                         {"name": "tv.com", "size": 20561100},
                         {"name": "redbox.com", "size": 19871800}
@@ -439,6 +480,7 @@
         },
         {
             "name": "Images",
+            "category": "TV & Video",
             "children": [
                 {
                     "name": "USA",
@@ -456,6 +498,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Porn",
                     "children": [
                         {"name": "xvideos.com", "size": 1703296700},
                         {"name": "xnxx.com", "size": 598800000},
@@ -484,6 +527,7 @@
                 },
                 {
                     "name": "Japan",
+                    "category": "Porn",
                     "children": [
                         {"name": "asg.to", "size": 106053200},
                         {"name": "tokyo-porn-tube.com", "size": 104649700}

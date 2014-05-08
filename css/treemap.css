@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+    margin: 30px 50px;
+    font-size: 16px;
+    font-family: "Open Sans", Helvetica;
+}
+
+.footer {
+    z-index: 1;
+    display: block;
+    float: right;
+    margin-top: -700px;
+    margin-right: 100px;
+}
