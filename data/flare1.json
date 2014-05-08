@@ -81,7 +81,7 @@
                 {
                 "name": "USA",
                 "children": [
-                    {"name": "microsoft.com", "size": 197956000}
+                    {"name": "microsoft.com", "size": 167956000}
                     ]
                 }
             ]
@@ -93,7 +93,7 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "hidemyass.com", "size": 20010000},
+                        {"name": "hidemyass.com", "size": 19010000},
                         {"name": "hotspotshield.com", "size": 69240000}
                     ]
                 },
@@ -411,19 +411,19 @@
             ]
         },
         {
-            "name": "TV and Video",
+            "name": "TV & Video",
             "children": [
                 {
                     "name": "Italy",
                     "children": [
-                        {"name": "gpotato.eu", "size": 5315600}
+                        {"name": "gpotato.eu", "size": 6315600}
                     ]
                 },
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "tv.com", "size": 19461100},
-                        {"name": "redbox.com", "size": 19771800}
+                        {"name": "tv.com", "size": 20561100},
+                        {"name": "redbox.com", "size": 19871800}
                     ]
                 }
             ]
