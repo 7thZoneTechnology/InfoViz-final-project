@@ -210,12 +210,12 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "facebook.com", "size": 2668419000},
-                        {"name": "t.co", "size": 118574000},
-                        {"name": "hootsuite.com", "size": 69360000},
-                        {"name": "fbcdn.net", "size": 25149000},
-                        {"name": "ning.com", "size": 2668419000},
-                        {"name": "tickld.com", "size": 5693300}
+                        {"name": "facebook.com", "size": 2668019000},
+                        {"name": "t.co", "size": 118374000},
+                        {"name": "hootsuite.com", "size": 69160000},
+                        {"name": "fbcdn.net", "size": 25129000},
+                        {"name": "ning.com", "size": 2668019000},
+                        {"name": "tickld.com", "size": 5493300}
                     ]
                 },
                 {
@@ -256,7 +256,7 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "google.com", "size": 4840295000},
+                        {"name": "google.com", "size": 4709295000},
                         {"name": "instantcheckmate.com", "size": 5838000},
                         {"name": "googleusercontent.com", "size": 119949000}
                     ]
@@ -264,7 +264,7 @@
                 {
                     "name": "India",
                     "children": [
-                        {"name": "goo.gl", "size": 26503000}
+                        {"name": "goo.gl", "size": 166503000}
                     ]
                 }
             ]
@@ -448,7 +448,7 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "xvideos.com", "size": 2103296700},
+                        {"name": "xvideos.com", "size": 1703296700},
                         {"name": "xnxx.com", "size": 598800000},
                         {"name": "youporn.com", "size": 79753000},
                         {"name": "hardsextube.com", "size": 25244000},
@@ -476,8 +476,8 @@
                 {
                     "name": "Japan",
                     "children": [
-                        {"name": "asg.to", "size": 6053200},
-                        {"name": "tokyo-porn-tube.com", "size": 4649700}
+                        {"name": "asg.to", "size": 106053200},
+                        {"name": "tokyo-porn-tube.com", "size": 104649700}
                     ]
                 }
             ]
