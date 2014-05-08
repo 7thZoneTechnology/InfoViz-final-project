@@ -1,0 +1,11 @@
+{"type":"FeatureCollection","domains":[
+{"type":"Feature","id":"01","geometry":
+	{"type":"Point","coordinates":[9.85000,57.09700]},"properties":{"name":"Aalborg, Denmark", "size":1
+	}},
+{"type":"Feature","id":"02","geometry":
+	{"type":"Point","coordinates":[-70.60000,-23.43330]},"properties":{"name":"Antofagasta, Chile", "size": 2
+	}},
+{"type":"Feature","id":"04","geometry":
+	{"type":"Point","coordinates":[-73.75030,42.65030]},"properties":{"name":"Albany, NY", "size":3
+	}}
+]}
