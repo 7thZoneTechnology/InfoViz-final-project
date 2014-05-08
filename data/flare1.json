@@ -6,12 +6,14 @@
             "children": [
                 {
                     "name": "Russia",
+                    "category": "Activism",
                     "children": [
                         {"name": "avaaz.org", "size": 15956600}
                     ]
                 },
                 {
                     "name": "USA",
+                    "category": "Activism",
                     "children": [
                         {"name": "change.org", "size": 14611000},
                         {"name": "swagbucks.com", "size": 22616000}
@@ -20,6 +22,7 @@
                 },
                 {
                     "name": "Arabia",
+                    "category": "Activism",
                     "children": [
                         {"name": "discuss.com.hk", "size": 6200}
                     ]
@@ -31,6 +34,7 @@
             "children": [
                 {
                     "name": "USA",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.com", "size": 447096000},
                         {"name": "wordpress.com", "size": 404068000},
@@ -43,18 +47,21 @@
                 },
                 {
                     "name": "Australia",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.com.au", "size": 10921000}
                     ]
                 },
                                 {
                     "name": "Spain",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.com.es", "size": 44612000}
                     ]
                 },
                 {
                     "name": "India",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.in", "size": 102360000},
                         {"name": "wplocker.com", "size": 5187400}
@@ -62,6 +69,7 @@
                 },
                 {
                     "name": "Japan",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.jp", "size": 20424000},
                         {"name": "dtiblog.com", "size": 7226700}
@@ -69,6 +77,7 @@
                 },
                 {
                     "name": "Turkey",
+                    "category": "Blogs",
                     "children": [
                         {"name": "blogspot.com.tr", "size": 10204000}
                     ]

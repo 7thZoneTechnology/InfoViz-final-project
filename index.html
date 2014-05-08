@@ -184,7 +184,7 @@
         childEnterTransition.append("rect")
             .classed("background", true)
             .style("fill", function(d) {
-                return color(d.parent.name);
+                return color(d.parent.category);
             });
         childEnterTransition.append('text')
             .attr("class", "label")
@@ -214,7 +214,7 @@
                 return d.dy;
             })
             .style("fill", function(d) {
-                return color(d.parent.name);
+                return color(d.parent.category);
             });
         childUpdateTransition.select(".label")
             .attr('x', function(d) {
@@ -357,7 +357,7 @@
                 return d.children ? headerHeight : Math.max(0.01, (ky * d.dy));
             })
             .style("fill", function(d) {
-                return d.children ? headerColor : color(d.parent.name);
+                return d.children ? headerColor : color(d.parent.category);
             });
 
 
