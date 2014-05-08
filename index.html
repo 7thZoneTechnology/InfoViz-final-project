@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <title>Treemap - Neat Zoom Effect</title>
+    <title></title>
     <script src="http://mbostock.github.com/d3/d3.v2.min.js"></script>
     <style type="text/css">
         body {
@@ -77,7 +77,7 @@
     var xscale = d3.scale.linear().range([0, chartWidth]);
     var yscale = d3.scale.linear().range([0, chartHeight]);
     var color = d3.scale.category10();
-    var headerHeight = 20;
+    var headerHeight = 15;
     var headerColor = "#555555";
     var transitionDuration = 500;
     var root;
@@ -124,7 +124,8 @@
             .attr("width", function(d) {
                 return Math.max(0.01, d.dx);
             })
-            .attr("height", headerHeight);
+            .attr("height", headerHeight)
+
         parentEnterTransition.append("rect")
             .attr("width", function(d) {
                 return Math.max(0.01, d.dx);
@@ -152,7 +153,7 @@
                 return Math.max(0.01, d.dx);
             })
             .attr("height", headerHeight)
-            .style("fill", headerColor);
+            .style("fill", 'headerColor');
         parentUpdateTransition.select(".label")
             .attr("transform", "translate(3, 13)")
             .attr("width", function(d) {
@@ -358,6 +359,7 @@
             .style("fill", function(d) {
                 return d.children ? headerColor : color(d.parent.name);
             });
+
 
         node = d;
 

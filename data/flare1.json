@@ -1,21 +1,21 @@
 {
-    "name": "Categories", 
+    "name": "Categories",
     "children": [
         {
             "name": "Activism",
             "children": [
                 {
-                    "name": "Russia", 
+                    "name": "Russia",
                     "children": [
-                        {"name": "avaaz.org", "size": 5946600} 
+                        {"name": "avaaz.org", "size": 5946600}
                     ]
                 },
                 {
-                    "name": "USA", 
+                    "name": "USA",
                     "children": [
                         {"name": "change.org", "size": 14611000},
-                        {"name": "swagbucks.com", "size": 22616000}  
-                        
+                        {"name": "swagbucks.com", "size": 22616000}
+
                     ]
                 },
                 {
@@ -26,25 +26,6 @@
                 }
             ]
         },
-         {
-            "name": "Misc", 
-            "children": [
-                {
-                    "name": "USA",
-                    "children": [
-                        {"name": "ow.ly", "size": 6164000},
-                        {"name": "superpages.com", "size": 5271300}
-                    ]
-                },
-                {
-                    "name": "Turkey",
-                    "children": [
-                        {"name": "sabah.com.tr", "size": 11260000}
-                    ]
-                }
-
-            ]
-        },    
         {
             "name": "Blogs",
             "children": [
@@ -105,20 +86,9 @@
                 }
             ]
         },
-               {
-            "name": "Hacking", 
-            "children": [
-                {
-                    "name": "USA",
-                    "children": [
-                        {"name": "hackforums.net", "size": 4546700}
-                    ]
-                }
-            ]
-        },
 
                {
-            "name": "Proxy", 
+            "name": "Proxy",
             "children": [
                 {
                     "name": "USA",
@@ -136,7 +106,7 @@
             ]
         },
         {
-            "name": "Shopping", 
+            "name": "Shopping",
             "children": [
                 {
                     "name": "USA",
@@ -166,9 +136,9 @@
                 }
 
             ]
-        },    
+        },
         {
-            "name": "File Sharing", 
+            "name": "File Sharing",
             "children": [
                 {
                     "name": "USA",
@@ -221,7 +191,7 @@
             ]
         },
        {
-            "name": "Social Networking", 
+            "name": "Social Networking",
             "children": [
                 {
                     "name": "India",
@@ -263,7 +233,7 @@
             ]
         },
         {
-            "name": "Gambling", 
+            "name": "Gambling",
             "children": [
                 {
                     "name": "UK",
@@ -281,7 +251,7 @@
             ]
         },
         {
-            "name": "Search Engins", 
+            "name": "Search Engines",
             "children": [
                 {
                     "name": "USA",
@@ -300,7 +270,7 @@
             ]
         },
         {
-            "name": "Learning", 
+            "name": "Learning",
             "children": [
                 {
                     "name": "USA",
@@ -414,24 +384,7 @@
             ]
         },
         {
-            "name": "Housing", 
-            "children": [
-                {
-                    "name": "Japan",
-                    "children": [
-                        {"name": "suumo.jp", "size": 6119200}
-                    ]
-                },
-                {
-                    "name": "Spain",
-                    "children": [
-                        {"name": "fotocasa.es", "size": 4535000}
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "ISP and Web Hosting", 
+            "name": "ISP and Web Hosting",
             "children": [
                 {
                     "name": "France",
@@ -458,7 +411,7 @@
             ]
         },
         {
-            "name": "TV and Video", 
+            "name": "TV and Video",
             "children": [
                 {
                     "name": "Italy",
@@ -476,7 +429,7 @@
             ]
         },
         {
-            "name": "Images", 
+            "name": "Images",
             "children": [
                 {
                     "name": "USA",
@@ -493,7 +446,7 @@
             "name": "Porn",
             "children": [
                 {
-                    "name": "USA", 
+                    "name": "USA",
                     "children": [
                         {"name": "xvideos.com", "size": 2103296700},
                         {"name": "xnxx.com", "size": 598800000},
@@ -521,7 +474,7 @@
                     ]
                 },
                 {
-                    "name": "Japan", 
+                    "name": "Japan",
                     "children": [
                         {"name": "asg.to", "size": 6053200},
                         {"name": "tokyo-porn-tube.com", "size": 4649700}
