@@ -7,7 +7,7 @@
                 {
                     "name": "Russia",
                     "children": [
-                        {"name": "avaaz.org", "size": 5946600}
+                        {"name": "avaaz.org", "size": 15956600}
                     ]
                 },
                 {
@@ -76,12 +76,12 @@
             ]
         },
         {
-            "name": "Companies",
+            "name": "Company",
             "children": [
                 {
                 "name": "USA",
                 "children": [
-                    {"name": "microsoft.com", "size": 207956000}
+                    {"name": "microsoft.com", "size": 197956000}
                     ]
                 }
             ]
@@ -125,13 +125,13 @@
                 {
                     "name": "Brazil",
                     "children": [
-                        {"name": "bomnegocio.com", "size": 9178700}
+                        {"name": "bomnegocio.com", "size": 10178700}
                     ]
                 },
                 {
                     "name": "Taiwan",
                     "children": [
-                        {"name": ",books.com.tw", "size": 5353200}
+                        {"name": "books.com.tw", "size": 6353200}
                     ]
                 }
 
@@ -161,9 +161,9 @@
                 {
                     "name": "Japan",
                     "children": [
-                        {"name": "fc2.com", "size": 137734000},
-                        {"name": "twitpic.com", "size": 9000700},
-                        {"name": "carview.co.jp", "size": 7461100}
+                        {"name": "fc2.com", "size": 137634000},
+                        {"name": "twitpic.com", "size": 9500700},
+                        {"name": "carview.co.jp", "size": 7361100}
 
                     ]
                 },
@@ -256,7 +256,7 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "google.com", "size": 4709295000},
+                        {"name": "google.com", "size": 4509295000},
                         {"name": "instantcheckmate.com", "size": 5838000},
                         {"name": "googleusercontent.com", "size": 119949000}
                     ]
@@ -300,21 +300,21 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "nytimes.com", "size": 80334000},
-                        {"name": "theguardian.com", "size": 61186000},
-                        {"name": "bloomberg.com", "size": 134939000},
-                        {"name": "zimbio.com", "size": 20244000},
-                        {"name": "liveleak.com", "size": 19450000},
-                        {"name": "theblaze.com", "size": 20304000},
-                        {"name": "feedburner.com", "size": 14311000},
-                        {"name": "dw.de", "size": 10118000},
-                        {"name": "salon.com", "size": 10496000},
-                        {"name": "techbrowsing.com", "size": 8684900},
-                        {"name": "wn.com", "size": 7851000},
-                        {"name": "ijreview.com", "size": 5788200},
-                        {"name": "genieo.com", "size": 6522000},
-                        {"name": "wenxuecity.com", "size": 5282600},
-                        {"name": "businessweek.com", "size": 15207000}
+                        {"name": "nytimes.com", "size": 80234000},
+                        {"name": "theguardian.com", "size": 61286000},
+                        {"name": "bloomberg.com", "size": 134839000},
+                        {"name": "zimbio.com", "size": 20144000},
+                        {"name": "liveleak.com", "size": 19350000},
+                        {"name": "theblaze.com", "size": 20204000},
+                        {"name": "feedburner.com", "size": 14211000},
+                        {"name": "dw.de", "size": 10018000},
+                        {"name": "salon.com", "size": 10396000},
+                        {"name": "techbrowsing.com", "size": 8584900},
+                        {"name": "wn.com", "size": 7751000},
+                        {"name": "ijreview.com", "size": 5688200},
+                        {"name": "genieo.com", "size": 6422000},
+                        {"name": "wenxuecity.com", "size": 5182600},
+                        {"name": "businessweek.com", "size": 15107000}
                     ]
                 },
                 {
@@ -416,14 +416,14 @@
                 {
                     "name": "Italy",
                     "children": [
-                        {"name": "gpotato.eu", "size": 4315600}
+                        {"name": "gpotato.eu", "size": 5315600}
                     ]
                 },
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "tv.com", "size": 7461100},
-                        {"name": "redbox.com", "size": 7771800}
+                        {"name": "tv.com", "size": 19461100},
+                        {"name": "redbox.com", "size": 19771800}
                     ]
                 }
             ]
@@ -434,7 +434,7 @@
                 {
                     "name": "USA",
                     "children": [
-                        {"name": "istockphoto.com", "size": 27383000},
+                        {"name": "istockphoto.com", "size": 37383000},
                         {"name": "123rf.com", "size": 22392000},
                         {"name": "imagevenue.com", "size": 9848400},
                         {"name": "cooltext.com", "size": 5204600}
