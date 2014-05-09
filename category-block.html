@@ -6,6 +6,7 @@
     <title></title>
     <script src="http://mbostock.github.com/d3/d3.v2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/treemap.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <style type="text/css">
         svg {
             overflow: hidden;
@@ -49,18 +50,32 @@
         }
     </style>
 </head>
+
 <body>
-<div id="body"></div>
-<div class="footer">
-    <select>
-        <option value="size">Number of traffic</option>
-        <option value="count">Number of sites</option>
-    </select>
-</div>
+<div id="body">
+</div><!-- /body -->
+
+<div id="intro">
+    <div id="title">
+        <p>Top 150 Blocked Sites<br>with Most Traffic</p>
+    </div>
+
+    <div id="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst.</p>
+    </div><!-- description -->
+
+    <div class="footer">
+        <select>
+            <option value="size">Number of traffic</option>
+            <option value="count">Number of sites</option>
+        </select>
+    </div><!-- footer -->
+</div><!-- /body -->
+
 </body>
 
 <script type="text/javascript">
-    var chartWidth = 1000;
+    var chartWidth = 900;
     var chartHeight = 700;
     var xscale = d3.scale.linear().range([0, chartWidth]);
     var yscale = d3.scale.linear().range([0, chartHeight]);

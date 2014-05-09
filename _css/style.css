@@ -6,10 +6,28 @@ body {
 
 #title {
   color: #fff;
-  font-size: 38px;
+  font-size: 46px;
   font-family: 'Oswald', sans-serif;
-  margin-left: 15px;
+  margin: 10px 15px 20px;
 }
+
+#toggle {
+  float: right;
+  margin-top: -80px;
+  font-family: "Open Sans";
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+#next-title {
+  padding-right: 10px;
+}
+
+#toggle img {
+  width: 50px;
+  float: right;
+}
+
 
 /*#map {
   width:100%;
@@ -94,7 +112,7 @@ div.infoWindow {
 
 #category-bar-chart {
   float: right;
-	width: 28%;
+	width: 26%;
 	height: 500px;
 }
 

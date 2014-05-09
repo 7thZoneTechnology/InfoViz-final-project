@@ -3,12 +3,39 @@ body {
     margin: 30px 50px;
     font-size: 16px;
     font-family: "Open Sans", Helvetica;
+    background-color: #282625;
+    display: inline-block;
+}
+
+#intro {
+    background-color: #ccc;
+}
+
+#title {
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    margin-top: -750px;
+    margin-right: 3%;
+    line-height: 50px;
+}
+
+#description {
+    float: right;
+    color: #fff;
+    width: 27%;
+    margin-top: -590px;
+    background-color: #FFFF99;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #333;
 }
 
 .footer {
     z-index: 1;
     display: block;
     float: right;
-    margin-top: -700px;
-    margin-right: 100px;
+    margin-right: 10%;
+    margin-top: -150px;
 }
