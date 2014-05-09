@@ -1,5 +1,5 @@
 // The SVG container
-var width  = 1000,
+var width  = 900,
     height = 500;
 
 // var pointColors = ["#93AEA6", "#F9E526", "#DE0C06","#522F75" ]; //DNS-green, HTTP-yellow, both-red, triple-purple

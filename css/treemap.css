@@ -32,10 +32,30 @@ body {
     color: #333;
 }
 
+#toggle {
+    float: right;
+    margin-top: -80px;
+    color: #fff;
+    text-decoration: underline;
+    display: inline-block;
+    margin-right: 5%;
+    width: 25%;
+}
+
+#toggle img {
+    width: 50px;
+    float: left;
+}
+
+
 .footer {
     z-index: 1;
     display: block;
     float: right;
-    margin-right: 10%;
+    margin-right: 12%;
     margin-top: -150px;
+}
+
+select {
+    width: 130%;
 }

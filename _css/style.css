@@ -29,10 +29,9 @@ body {
 }
 
 
-/*#map {
-  width:100%;
-  height:550px;
-}*/
+#map {
+  margin: auto 30px;
+}
 
 .country {
   fill: #5B585A;
@@ -46,7 +45,7 @@ body {
 }
 
 #intro {
-  margin: 10px 30px 40px;
+  margin: 10px 30px 20px;
   padding: 10px 30px;
   font-family: 'Open Sans';
   background-color: #4c0000;
@@ -105,23 +104,25 @@ div.infoWindow {
 
 #maplegend {
 	position: absolute;
-	top: 750px;
+	top: 630px;
 	left: 20px;
   color: #fff !important;
 }
 
 #category-bar-chart {
   float: right;
-	width: 26%;
+	width: 27%;
 	height: 500px;
+  margin-right: 3%;
 }
 
 #method-bar-chart
 {
-	width: 49%;
+	width: 45%;
 	margin: auto;
   height: 200px;
 	float: left;
+  margin-left: 3%;
 }
 
 #data-table {
@@ -129,10 +130,11 @@ div.infoWindow {
   font-family: 'Open Sans';
   font-size: 12px;
   border-radius: 3px;
-	width: 705px;
+	width: 48%;
   height: 200px;
 	margin: auto;
 	float: right;
+  margin-right: 50px;
   background-color: #ffffcc;
   overflow: auto;
   overflow-x:hidden;
