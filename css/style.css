@@ -18,33 +18,33 @@ html {
 
 
 #title p {
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 50%;
-    font-size: 45px;
+    font-size: 60px;
     color: #FFF;
     position: fixed;
     font-family: 'Oswald', sans-serif;
-    line-height: 53px;
+    line-height: 60px;
     display: inline-block;
 }
 
 
 #intro {
   width: 550px;
-  height: 480px;
+  height: 340px;
   padding: 25px;
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 30px;
   background-color: #fff;
   margin-left: 50%;
   display: inline-block;
-  margin-top: 220px;
+  margin-top: 270px;
   font-family: 'Open Sans';
   opacity: 0.7;
 }
 
 .myButton {
-  margin-left: 40%;
+  margin-left: 1%;
   margin-top: 3%;
   line-height: 30px;
   -moz-box-shadow:inset 0px 1px 0px 0px #a3a3a3;
