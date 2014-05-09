@@ -8,6 +8,7 @@ body {
   color: #fff;
   font-size: 38px;
   font-family: 'Oswald', sans-serif;
+  margin-left: 15px;
 }
 
 /*#map {
@@ -25,6 +26,22 @@ body {
 .hidden {
   display: none;
 }
+
+#intro {
+  margin: 10px 30px 40px;
+  padding: 10px 30px;
+  font-family: 'Open Sans';
+  background-color: #4c0000;
+  color: #c7c7c7;
+  border-radius: 7px;
+}
+
+#intro button {
+  text-align: center;
+}
+
+
+
 div.tooltip {
   color: #222;
   background: #fff;
@@ -70,7 +87,7 @@ div.infoWindow {
 
 #maplegend {
 	position: absolute;
-	top: 380px;
+	top: 750px;
 	left: 20px;
   color: #fff !important;
 }
@@ -90,15 +107,23 @@ div.infoWindow {
 }
 
 #data-table {
+  color: #333;
+  font-family: 'Open Sans';
+  font-size: 12px;
   border-radius: 3px;
-	width: 700px;
+	width: 705px;
   height: 200px;
 	margin: auto;
 	float: right;
-  background-color: #ccc;
+  background-color: #ffffcc;
   overflow: auto;
   overflow-x:hidden;
   overflow-y: scroll;
+}
+
+#data-table th {
+  padding: 3px;
+  text-decoration: underline;
 }
 
 

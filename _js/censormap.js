@@ -3,7 +3,7 @@ var width  = 1000,
     height = 500;
 
 // var pointColors = ["#93AEA6", "#F9E526", "#DE0C06","#522F75" ]; //DNS-green, HTTP-yellow, both-red, triple-purple
-var pointColors = ["#F9E526", "#93AEA6","#DE0C06","#522F75" ]; //DNS-yello, HTTP-green, both-red, triple-purple
+var pointColors = ["#F9E526", "#93AEA6","#FFCC00","#DE0C06" ]; //DNS-yello, HTTP-green, both-orange, triple-red
 var method = ["DNS Polution", "HTTP Reset", "DNS + HTTP", "DNS + HTTP + IP Blacklist"];
 
 var projection = d3.geo.mercator()
@@ -264,7 +264,7 @@ function drawCategoryBarChart(data){
         style: {
           fontFamily: "Helvetica,Arial,sans-serif"
         },
-        backgroundColor: "#ccc",
+        backgroundColor: "#e6e6e6",
       },
 
       legend: {
@@ -276,7 +276,7 @@ function drawCategoryBarChart(data){
       },
       plotOptions: {
         bar: {
-          borderColor: "#ccc",
+          borderColor: "#e6e6e6",
           dataLabels: {
             enabled: true
           },
@@ -389,7 +389,7 @@ function drawMethodBarChart(data){
 
   var options = {
       chart: {
-        backgroundColor: "#ccc",
+        backgroundColor: "#e6e6e6",
         renderTo: "method-bar-chart",
         type: "bar",
         style: {
@@ -406,7 +406,9 @@ function drawMethodBarChart(data){
       },
       plotOptions: {
         bar: {
-          borderColor: "#ccc",
+          colorByPoint: true,
+          colors: ['#93AEA6','#FFCC00','#DE0C06'],
+          borderColor: "#e6e6e6",
           dataLabels: {
             enabled: true
           },
