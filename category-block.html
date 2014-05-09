@@ -3,8 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title></title>
+    <title>Top 150 Blocked Sites with Most Traffic</title>
     <script src="http://mbostock.github.com/d3/d3.v2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/treemap.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -54,6 +53,7 @@
 
 <body>
 <div id="body">
+
 </div><!-- /body -->
 
 <div id="intro">
@@ -66,25 +66,25 @@
     </div><!-- description -->
 
     <div class="footer">
-        <select>
+        <select class="select">
             <option value="size">Number of traffic</option>
             <option value="count">Number of sites</option>
         </select>
     </div><!-- footer -->
 
     <div id="toggle">
-        <a href="censormap.html"><img src="left_arrow.png"></img></a>
-        <div id="next-title">Back: Domains Blocked Using<br>DNS Polution And/Or HTTP Reset</div>
+        <a href="censormap.html"><img src="left_arrow.png"></img>
+        <div id="next-title">Back: Domains Blocked Using<br>DNS Polution And/Or HTTP Reset</div></a>
     </div><!-- /toggle -->
 
-</div><!-- /body -->
+</div><!-- /intro -->
 
 
 
 </body>
 
 <script type="text/javascript">
-    var chartWidth = 900;
+    var chartWidth = 800;
     var chartHeight = 700;
     var xscale = d3.scale.linear().range([0, chartWidth]);
     var yscale = d3.scale.linear().range([0, chartHeight]);

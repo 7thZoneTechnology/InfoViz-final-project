@@ -1,5 +1,5 @@
 // The SVG container
-var width  = 900,
+var width  = 850,
     height = 500;
 
 // var pointColors = ["#93AEA6", "#F9E526", "#DE0C06","#522F75" ]; //DNS-green, HTTP-yellow, both-red, triple-purple
@@ -8,7 +8,7 @@ var method = ["DNS Polution", "HTTP Reset", "DNS + HTTP", "DNS + HTTP + IP Black
 
 var projection = d3.geo.mercator()
                 .translate([width/2, 300])
-                .scale(160);
+                .scale(100);
 
 var path = d3.geo.path()
     .projection(projection);

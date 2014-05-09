@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>D3 World Map with Zoom</title>
+  <title>Domains Blocked Using DNS Polution And/Or HTTP Reset</title>
   <!-- JS Scripts -->
   <script src="_js/d3.min.js"></script>
   <script src="http://d3js.org/queue.v1.min.js"></script>
@@ -19,8 +19,8 @@
 <body>
   <div id="title">Domains Blocked Using DNS Polution And/Or HTTP Reset</div>
   <div id="toggle">
-    <div id="next-title">Next: Something at a glance</div>
-    <a href="category-block.html"><img src="right_arrow.png"></img></a>
+    <a href="category-block.html"><div id="next-title">Next: Something at a glance</div>
+    <img src="right_arrow.png"></img></a>
   </div>
   <!-- <div>
         <a href="#" id="show-top">Show Top 100 Blocked Domains</a>
@@ -29,12 +29,21 @@
   </div> -->
 
  <div id="intro">
-  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis et tellus tempor pretium sed at mauris. Sed ut blandit nulla, eget adipiscing orci. Aenean sed sagittis velit. Aliquam sed placerat velit. In hac habitasse platea dictumst.</p>
+  <p> The map below shows where 1498 blocked domains are hosted in the world based on the geolocation information extracted from their IP addresses. These blocked domains are among world’s top one million domain names, ranked by Alexa.com.</p>
 
-  <a href="#map"><button type="button">See Map</button></a>
+  <p>Three different methods have been detected to be used by Chinese government to censor the domains. They include 1)   DNS pollution, 2) HTTP request reset, 3) IP blacklist.
+     HTTP request reset is the most common way to censor a domain. The <span style="color: #93AEA6">GREEN dots</span> on the map shows domains blocked by HTTP request rest. When the censorship bureau gets serious, combinations of methods are applied to make sure Chinese citizens can never access a domain in normal ways. The <span style="color: #FFCC00">ORANGE dots</span> on the maps shows domains blocked by combinations of HTTP reset, plus DNS pollution. The <span style="color: #DE0C06">RED dots</span> shows domains blocked by combinations of HTTP reset, DNS pollution and IP blacklist.</p>
+
+  <h3>How to interact with the map:</h3>
+  <p>The map is <span style="color: #ff0">ZOOMABLE!!!</span> Hovering the mouse over a dot to view its details.</p>
+
+  <a href="#map"><button type="button">Start Exploring</button></a><br><br>
 
 </div> <!-- /intro -->
 
+  <div id="map">
+
+  </div>
 
 <div id="category-data">
   <div id="category-bar-chart">
@@ -42,32 +51,31 @@
 
 </div><!-- /category-data -->
 
-  <div id="map">
-
-  </div>
 
   <div id="maplegend"></div>
 
-  <div id="bar-charts">
-    <div id="method-bar-chart"></div>
-  </div>
+  <div id="bottom-blocks">
+    <div id="bar-charts">
+      <div id="method-bar-chart"></div>
+    </div>
 
-<div id="data-table">
-    <table>
-      <thead>
-        <tr>
-          <th>Domain Name</th>
-          <th>Block Method</th>
-          <th>Global Traffic Rank</th>
-          <th>Domain Description</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-  </div><!-- /data-table -->
+    <div id="data-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Domain Name</th>
+            <th>Block Method</th>
+            <th>Global Traffic Rank</th>
+            <th>Domain Description</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div><!-- /data-table -->
+  </div><!-- /bottom-blocks -->
 
-<br><br
+<br><br>
 </body>
 <script src="_js/censormap.js"></script>
 </html>

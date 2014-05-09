@@ -4,6 +4,7 @@ body {
   background-color: #000;
 }
 
+
 #title {
   color: #fff;
   font-size: 46px;
@@ -30,7 +31,9 @@ body {
 
 
 #map {
+  position: absolute;
   margin: auto 30px;
+  z-index: 1;
 }
 
 .country {
@@ -55,9 +58,22 @@ body {
 
 #intro button {
   text-align: center;
+  width: 130px;
+  height: 30px;
+  border-radius: 7px;
+  outline-style: none;
+  cursor: pointer;
+}
+
+#intro h3 {
+  margin-bottom: -13px;
+  color: #fff;
 }
 
 
+a:visited {
+  color: #fff;
+}
 
 div.tooltip {
   color: #222;
@@ -104,25 +120,34 @@ div.infoWindow {
 
 #maplegend {
 	position: absolute;
-	top: 630px;
-	left: 20px;
+	top: 780px;
+	left: 60px;
   color: #fff !important;
 }
 
 #category-bar-chart {
   float: right;
-	width: 27%;
+	width: 30%;
 	height: 500px;
   margin-right: 3%;
+  z-index: 1;
+}
+
+#bottom-blocks
+{
+  display: inline-block;
+  margin: 30px auto;
+  width: 99%;
 }
 
 #method-bar-chart
 {
-	width: 45%;
+	width: 43%;
 	margin: auto;
   height: 200px;
 	float: left;
   margin-left: 3%;
+  float: left;
 }
 
 #data-table {
@@ -130,7 +155,7 @@ div.infoWindow {
   font-family: 'Open Sans';
   font-size: 12px;
   border-radius: 3px;
-	width: 48%;
+	width: 49%;
   height: 200px;
 	margin: auto;
 	float: right;

@@ -7,17 +7,46 @@ body {
     display: inline-block;
 }
 
+
 #intro {
     background-color: #ccc;
+    float: right;
 }
+
+.select {
+    width: 170px;
+    height: 28px;
+    overflow: hidden;
+    border: #FEFEFE 1px solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+    box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+}
+
+.select select {
+   background: transparent;
+   width: 170px;
+   font-size:7pt;
+   color:grey;
+   border: 0;
+   border-radius: 0;
+   height: 28px;
+   -webkit-appearance: none;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+
 
 #title {
     color: #fff;
-    font-size: 42px;
+    font-size: 2.6em;
     font-family: 'Oswald', sans-serif;
     float: right;
     margin-top: -750px;
-    margin-right: 3%;
     line-height: 50px;
 }
 
@@ -56,6 +85,6 @@ body {
     margin-top: -150px;
 }
 
-select {
-    width: 130%;
+a:visited {
+  color: #fff;
 }
