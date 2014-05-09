@@ -3,42 +3,57 @@
 <head>
   <meta charset="utf-8">
   <title>D3 World Map with Zoom</title>
-  <link rel="stylesheet" type="text/css" href="_css/style.css" />
+  <!-- JS Scripts -->
   <script src="_js/d3.min.js"></script>
   <script src="http://d3js.org/queue.v1.min.js"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
   <script type="text/javascript" src="_js/jquery-1.11.0.min.js"></script>
   <script src="_js/highcharts.js"></script>
+  <!--Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="_css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-  <h1>Domains Blocked Using DNS Polution And/Or HTTP Reset by Chinese State Censor</h1>
-  <div>
+  <div id="title">Domains Blocked Using DNS Polution And/Or HTTP Reset</div>
+  <!-- <div>
         <a href="#" id="show-top">Show Top 100 Blocked Domains</a>
         <a href="#" id="show-heavy-blocked">Show Domains Blocked using DNS+HTTP or DNS+HTTP+IP methods</a>
         <a href="#" id="show-all">Show All Blocked Domains</a>
+  </div> -->
+
+<div id="category-data">
+  <div id="category-bar-chart">
   </div>
+
+</div><!-- /category-data -->
+
   <div id="map">
 
   </div>
+
   <div id="maplegend"></div>
+
   <div id="bar-charts">
-    <div id="category-bar-chart"></div>
-    <div id="method-bar-chart">test</div>
+    <div id="method-bar-chart"></div>
   </div>
-  <div id="data-table">
-      <table>
-  <thead>
-    <tr>
-      <th>Domain Name</th>
-      <th>Block Method</th>
-      <th>Global Traffic Rank</th>
-      <th>Domain Description</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-  </table>
-    </div>
+
+<div id="data-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Domain Name</th>
+          <th>Block Method</th>
+          <th>Global Traffic Rank</th>
+          <th>Domain Description</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div><!-- /data-table -->
+
 </body>
 <script src="_js/censormap.js"></script>
 </html>

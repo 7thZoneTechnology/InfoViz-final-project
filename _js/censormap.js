@@ -1,6 +1,6 @@
 // The SVG container
-var width  = 880,
-    height = 460;
+var width  = 1000,
+    height = 500;
 
 // var pointColors = ["#93AEA6", "#F9E526", "#DE0C06","#522F75" ]; //DNS-green, HTTP-yellow, both-red, triple-purple
 var pointColors = ["#F9E526", "#93AEA6","#DE0C06","#522F75" ]; //DNS-yello, HTTP-green, both-red, triple-purple
@@ -263,18 +263,20 @@ function drawCategoryBarChart(data){
         type: "bar",
         style: {
           fontFamily: "Helvetica,Arial,sans-serif"
-        }
+        },
+        backgroundColor: "#ccc",
       },
 
       legend: {
         borderRadius: 0,
         itemStyle: {
-          color: "#000000",
+          color: "#000",
           fontFamily: "Helvetica,Arial,sans-serif"
         }
       },
       plotOptions: {
         bar: {
+          borderColor: "#ccc",
           dataLabels: {
             enabled: true
           },
@@ -387,22 +389,24 @@ function drawMethodBarChart(data){
 
   var options = {
       chart: {
+        backgroundColor: "#ccc",
         renderTo: "method-bar-chart",
         type: "bar",
         style: {
-          fontFamily: "Helvetica,Arial,sans-serif"
+          fontFamily: "Helvetica,Arial,sans-serif",
         }
       },
 
       legend: {
         borderRadius: 0,
         itemStyle: {
-          color: "#000000",
+          color: "#000",
           fontFamily: "Helvetica,Arial,sans-serif"
         }
       },
       plotOptions: {
         bar: {
+          borderColor: "#ccc",
           dataLabels: {
             enabled: true
           },
@@ -432,10 +436,10 @@ function drawMethodBarChart(data){
                         desc = "A description has not been given to this website."
                       }
 
-                      // $("#data-table tbody").append("<tr id='"+d.properties.name+"'><td>"
-                      //     +d.properties.name + "</td><td>"+method[d.properties.blocked]+"</td>"+
-                      //     "<td>"+d.properties.rank+"</td>"+
-                      //     "<td>"+desc+"</td></tr>");
+                      $("#data-table tbody").append("<tr id='"+d.properties.name+"'><td>"
+                          +d.properties.name + "</td><td>"+method[d.properties.blocked]+"</td>"+
+                          "<td>"+d.properties.rank+"</td>"+
+                          "<td>"+desc+"</td></tr>");
                       return "visible";
                     }
                     else{
