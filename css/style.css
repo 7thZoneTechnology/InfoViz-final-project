@@ -18,33 +18,33 @@ html {
 
 
 #title p {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 50%;
-    font-size: 60px;
+    font-size: 45px;
     color: #FFF;
     position: fixed;
     font-family: 'Oswald', sans-serif;
-    line-height: 70px;
+    line-height: 53px;
     display: inline-block;
 }
 
 
 #intro {
-  width: 500px;
-  height: 190px;
+  width: 550px;
+  height: 480px;
   padding: 25px;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 30px;
   background-color: #fff;
   margin-left: 50%;
   display: inline-block;
-  margin-top: 330px;
+  margin-top: 220px;
   font-family: 'Open Sans';
   opacity: 0.7;
 }
 
 .myButton {
-  margin-left: 52%;
+  margin-left: 40%;
   margin-top: 3%;
   line-height: 30px;
   -moz-box-shadow:inset 0px 1px 0px 0px #a3a3a3;
@@ -65,7 +65,7 @@ html {
   font-family: 'Open Sans';
   font-size:20px;
   font-weight:bold;
-  padding:12px 24px;
+  padding:12px 12px;
   text-decoration:none;
 }
 

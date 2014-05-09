@@ -102,7 +102,7 @@ function ready(error, world, names, points, categoryBarChartData, methodBarChart
       })
       .on("mouseover", function(d,i) {
         tooltip.classed("hidden", false)
-              .style("top", (d3.event.pageY + 16) + "px")
+              .style("top", "100px")
               .style("left", (d3.event.pageX + 16) + "px")
               .html(d.name)
       })
@@ -184,7 +184,7 @@ function ready(error, world, names, points, categoryBarChartData, methodBarChart
                   '<p>' + desc + '</p>'
 
               infoWindow.classed("hidden", false)
-                  .style("top", (d3.event.pageY + 16) + "px")
+                  .style("top", "100px")
                   .style("left", (d3.event.pageX + 16) + "px")
                   .html(str);
           })
