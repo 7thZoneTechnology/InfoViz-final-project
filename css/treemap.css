@@ -61,6 +61,10 @@ body {
     color: #333;
 }
 
+#description p {
+    font-size: 12px;
+}
+
 #toggle {
     float: right;
     margin-top: -80px;
